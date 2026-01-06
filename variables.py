@@ -1,62 +1,47 @@
-num_servers = 10 # this is an inline comment
-# this a comment 
-a = 10 
+num_servers = 10  # This is an inline comment
+# This a comment
+a = 10
 
-
-# mutli line string 
-"""
+# Multi line string
+""" 
 This is a
-sample 
-comment
+sample
+comment 
 """
 
+# Normal string
+"Hello World"
+'Hello World'
+'Today\'s weather is nice'
+"Today's weather is nice"
 
-# Normal string 
-"Hello world"
-'Hello world'
-'today\'s weather is nice'
-"today's weather is nice"
-
-# Data types 
-"""
-1. Number (integer, Float)
-2. string 
-3. Boolean
-4. list
-5. Tuple
-6. Dict (Dictonories, Hashmaps)
-7. sets
-"""
-num_servers = 10 # integer
+num_servers = 10 # Integer
 print(num_servers)
-Const_pi = 3.14 # Float
-print(type(Const_pi))
+CONST_PI = 3.14 # Float
+print(type(CONST_PI))
 
 num_servers = 15
 print(num_servers)
 print(type(num_servers))
 
-
-server = "ansible" # string
+server = "Ansible" # String
 print(type(server))
 
-is_prod = False # boolean 
+is_prod = False # Boolean
 print(type(is_prod))
-
 
 a = 10
 b = 20
-total = a + b # 30 
+total = a + b # 30
 diff = a - b # -10
-multi = a * b # 200
+mult = a * b # 200
 division = b / a # 2.0
-print(division) 
-integer_division = b // a 
+print(division)
+integer_division = b // a # 2
 print(integer_division)
 remainder = b % a # 0
 print(remainder)
 a = 2
-b = 3 
-power = b ** a  # 9 
+b = 3
+power = b ** a # 9
 print(power)
-
