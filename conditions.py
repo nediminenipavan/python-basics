@@ -1,5 +1,6 @@
 # Python is case sensitive i.e. 'a' and "A" are different
 enviornment = input("Enter your envionment: ")
+print(type(enviornment))
 change_ticket = False
 
 enviornment = enviornment.casefold()
